@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893258562394",
+    "firebase_url": "https://inapp-messaging-demo.firebaseio.com",
+    "project_id": "inapp-messaging-demo",
+    "storage_bucket": "inapp-messaging-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893258562394:android:645c99ee26f75047a69163",
+        "android_client_info": {
+          "package_name": "com.avast.inappmessagingdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893258562394-ga94r4vi58k3nnl65mb2d1gv55ao3sqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChMsbJnggK7y7dP_ZTiKrSM7qtWBUl_Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893258562394-ga94r4vi58k3nnl65mb2d1gv55ao3sqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
