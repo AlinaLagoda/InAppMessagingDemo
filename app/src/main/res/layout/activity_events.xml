@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_event1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacingMedium"
+        android:layout_marginTop="@dimen/spacingMedium"
+        android:layout_marginEnd="@dimen/spacingMedium"
+        android:text="@string/event_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_event2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacingMedium"
+        android:layout_marginTop="@dimen/spacingSmall"
+        android:layout_marginEnd="@dimen/spacingMedium"
+        android:text="@string/event_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_event3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacingMedium"
+        android:layout_marginTop="@dimen/spacingSmall"
+        android:layout_marginEnd="@dimen/spacingMedium"
+        android:text="@string/event_3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacingMedium"
+        android:layout_marginTop="@dimen/spacingSmall"
+        android:layout_marginEnd="@dimen/spacingMedium"
+        android:text="@string/crash_app_action" />
+</LinearLayout>

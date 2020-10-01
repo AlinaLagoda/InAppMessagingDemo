@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">InAppMessagingDemo</string>
+
+    <string name="user_group_a">Group A</string>
+    <string name="user_group_b">Group B</string>
+    <string name="user_group_c">Group C</string>
+
+    <string name="event_1">Event 1</string>
+    <string name="event_2">Event 2</string>
+    <string name="event_3">Event 3</string>
+
+    <string name="current_user_group_label_template">Current: %s</string>
+    <string name="switch_group_action">Switch group</string>
+    <string name="generate_events_action">Generate events</string>
+    <string name="behavior_description_label">Description</string>
+    <string name="behavior_description_value">
+        1. Welcome banner for all users from the group B. Banner will be delivered each day when user opens an app.\n
+        2. Dialog for users from the group A. Dialog will be delivered max a day when user clicks on event 1.
+    </string>
+
+    <string name="switch_group_dialog_title">Select group</string>
+
+    <string name="events_screen_title">Tap to send events</string>
+    <string name="action_result_screen_title">Action result</string>
+    <string name="action_result_description_label">You have been redirected from in-app message 🎉</string>
+
+    <string name="crash_app_action">Crash app</string>
 </resources>

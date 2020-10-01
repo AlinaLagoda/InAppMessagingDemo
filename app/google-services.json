@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:893258562394:android:645c99ee26f75047a69163",
+        "mobilesdk_app_id": "1:893258562394:android:cde63c7e30def8eda69163",
         "android_client_info": {
-          "package_name": "com.avast.inappmessagingdemo"
+          "package_name": "com.example.inappmessagingdemo"
         }
       },
       "oauth_client": [

@@ -2,12 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.avast.inappmessagingdemo"
+        applicationId "com.example.inappmessagingdemo"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -54,6 +55,7 @@ dependencies {
     // Firebase
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
     implementation 'com.google.firebase:firebase-inappmessaging-display:19.1.1'
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
 
     // DataStore
     implementation "androidx.datastore:datastore-preferences:1.0.0-alpha01"

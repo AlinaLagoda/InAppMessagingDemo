@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.avast.inappmessagingdemo">
+    package="com.example.inappmessagingdemo">
 
     <application
-        android:allowBackup="true"
+        android:name="com.example.inappmessagingdemo.App"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.inappmessagingdemo.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity
+            android:name="com.example.inappmessagingdemo.ui.EventsActivity"
+            android:label="@string/events_screen_title" />
+
+        <activity
+            android:name="com.example.inappmessagingdemo.ui.ActionResultActivity"
+            android:label="@string/action_result_screen_title">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="actions"
+                    android:pathPrefix="/action-result"
+                    android:scheme="sample-app" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
